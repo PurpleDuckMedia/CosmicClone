@@ -22,7 +22,7 @@ namespace CosmosCloneCommon.Utility
         {
             ConnectionPolicy = new ConnectionPolicy
             {
-                ConnectionMode = ConnectionMode.Direct,
+                ConnectionMode = ConnectionMode.Gateway,
                 ConnectionProtocol = Protocol.Tcp,
                 RetryOptions = new RetryOptions()
             };

@@ -21,7 +21,7 @@ namespace CosmosCloneCommon.Utility
 
         private static readonly ConnectionPolicy ConnectionPolicy = new ConnectionPolicy
         {
-            ConnectionMode = ConnectionMode.Direct,
+            ConnectionMode = ConnectionMode.Gateway,
             ConnectionProtocol = Protocol.Tcp
         };
         public CosmosBulkImporter()
